@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1439</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="main_page">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1441</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="Login">
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>221</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(47, 48, 85,0.5);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>List</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Remove </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>statistic</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>61</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(27, 26, 71,0.5);</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="login" native="true">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>190</y>
+        <width>541</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #14274e;
+border-radius: 10px;</string>
+      </property>
+      <widget class="QLineEdit" name="password">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>90</y>
+         <width>351</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #ccc;
+font-size: 16px;
+padding: 5px;
+color: black;
+background-color: white;</string>
+       </property>
+       <property name="maxLength">
+        <number>40</number>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Password</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="user_name">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>30</y>
+         <width>351</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #ccc;
+font-size: 16px;
+padding: 5px;
+color: black;
+background-color: white;</string>
+       </property>
+       <property name="maxLength">
+        <number>40</number>
+       </property>
+       <property name="placeholderText">
+        <string>User name</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="logined_btn">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>170</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border: none;
+font-size: 16px;
+padding: 5px;
+color: white;
+background-color: rgb(87,184,69);
+}
+QPushButton:hover{
+background-color:rgb(170, 170, 170);
+}</string>
+       </property>
+       <property name="text">
+        <string>Đăng nhập</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="notify_text">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>140</y>
+         <width>281</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 84, 32);
+font-size: 14px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+font-size: 18px;
+text-align: center;
+font-weight: 0px;</string>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+font-size: 18px;
+text-align: center;
+font-weight: 0px;</string>
+       </property>
+       <property name="text">
+        <string>User name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="home">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>221</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 48, 85);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_h_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_h_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>List</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_h_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_h_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Remove </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_h_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>statistic</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>61</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(27, 26, 71);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="LIST">
+     <widget class="QLabel" name="infor_nv">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1441</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 48, 85);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_l_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>List</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_l_4">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_l_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>0</y>
+        <width>261</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_l_5">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>0</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>statistic</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_l_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_l_6">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>0</y>
+        <width>211</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>LOGOUT</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>911</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Họ và Tên</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ID NV</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Ngày Sinh</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giới Tính</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ID Đơn Vị</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Chức Vụ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Số Điện Thoại</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>sanh</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>11111</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>2001-29-09</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>nam</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>812312</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>chính trị gia</string>
+       </property>
+      </item>
+      <item row="0" column="6">
+       <property name="text">
+        <string>0842770868</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>long</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>1212211</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>2001-20-08</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>nữ</string>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string>5123031</string>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string>ráp bơ</string>
+       </property>
+      </item>
+      <item row="1" column="6">
+       <property name="text">
+        <string>6510849054</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="infor">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>230</y>
+        <width>441</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="user_name_2">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>190</y>
+        <width>351</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid #cccc;
+font-size: 16px;
+padding: 5px;
+color: black;
+background-color: white;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="maxLength">
+       <number>40</number>
+      </property>
+      <property name="placeholderText">
+       <string>Họ và tên</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>1330</x>
+        <y>190</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(23, 177, 21);
+color:white;
+padding: 1px;</string>
+      </property>
+      <property name="text">
+       <string>Tìm kiếm</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ADD">
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1441</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 48, 85);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_a_5">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>0</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>statistic</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_a_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_a_6">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>0</y>
+        <width>211</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>LOGOUT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_a_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>List</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_a_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>0</y>
+        <width>261</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_a_4">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>440</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>add</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="REMOVE">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>420</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>remove</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1441</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 48, 85);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_r_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_r_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>List</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_r_5">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>0</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>statistic</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_r_4">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_r_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>0</y>
+        <width>261</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_r_6">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>0</y>
+        <width>211</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>LOGOUT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="STATISTIC">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>390</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>statistic</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1441</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 48, 85);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_s_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_s_4">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>0</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_s_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>0</y>
+        <width>261</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_s_6">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>0</y>
+        <width>211</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>LOGOUT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_s_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>List</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_s_5">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>0</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Algerian</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgba(0,0,0,0);
+background-image: url();
+border: none;
+color: white;
+}
+QPushButton:hover{
+background-color: #1a1946;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>statistic</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Infor"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
